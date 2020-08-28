@@ -1,0 +1,338 @@
+ptr,type,size,name,desc,value,parent
+18558c7a978,none,3384,<global state>,global state and string table,(null),0
+18558c7aef0,table,344,registry,registry table,(null),0
+18558c7a8a8,thread,960,[1],array item,(null),18558c7aef0
+18558c74c10,table,2104,[2],array item,(null),18558c7aef0
+18558c88cd0,string,32,<key>,key,global1,18558c74c10
+18558c85c50,table,184,global1,value,(null),18558c74c10
+18558c88bb0,string,29,<key>,key,key2,18558c85c50
+18558c89630,string,31,key2,value,value2,18558c85c50
+18558c895d0,string,30,[1],value,item1,18558c85c50
+18558c88af0,string,30,[2],value,item2,18558c85c50
+18558c89990,string,29,<key>,key,key1,18558c85c50
+18558c88b50,string,31,key1,value,value1,18558c85c50
+18558c82370,string,29,<key>,key,next,18558c74c10
+18558c81b90,string,34,<key>,key,coroutine,18558c74c10
+18558c83ef0,table,312,coroutine,value,(null),18558c74c10
+18558c84460,string,31,<key>,key,resume,18558c83ef0
+18558c85000,string,31,<key>,key,create,18558c83ef0
+18558c84940,string,31,<key>,key,status,18558c83ef0
+18558c84280,string,29,<key>,key,wrap,18558c83ef0
+18558c84a00,string,30,<key>,key,yield,18558c83ef0
+18558c84d60,string,32,<key>,key,running,18558c83ef0
+18558c84820,string,36,<key>,key,isyieldable,18558c83ef0
+18558c82190,string,31,<key>,key,ipairs,18558c74c10
+18558c82250,string,31,<key>,key,assert,18558c74c10
+18558c82490,string,31,<key>,key,rawset,18558c74c10
+18558c82130,string,29,<key>,key,load,18558c74c10
+18558c824f0,string,31,<key>,key,select,18558c74c10
+18558c82670,string,32,<key>,key,package,18558c74c10
+18558c831d0,table,312,package,value,(null),18558c74c10
+18558c81bf0,string,30,<key>,key,cpath,18558c831d0
+18558c83cf0,string,248,cpath,value,?.dll;..\lib\lua\5.3\?.dll;loadall.dll;.\?.dll,18558c831d0
+18558c81770,string,29,<key>,key,path,18558c831d0
+18558c83a30,string,492,path,value,lua\?.lua;lua\?\init.lua;?.lua;?\init.lua;..\share\lua\5.3\?.lua;..\share\lua\5.3\?\init.lua;.\?.lua;.\?\init.lua,18558c831d0
+18558c81e30,string,31,<key>,key,loaded,18558c831d0
+18558c82730,table,568,loaded,value,(null),18558c831d0
+18558c84100,string,30,<key>,key,table,18558c82730
+18558c83150,table,312,table,value,(null),18558c82730
+18558c846a0,string,31,<key>,key,concat,18558c83150
+18558c84b20,string,29,<key>,key,pack,18558c83150
+18558c847c0,string,31,<key>,key,remove,18558c83150
+18558c84ee0,string,29,<key>,key,sort,18558c83150
+18558c84520,string,31,<key>,key,insert,18558c83150
+18558c84400,string,31,<key>,key,unpack,18558c83150
+18558c84dc0,string,29,<key>,key,move,18558c83150
+18558c82670,string,0,<key>,key,(null),18558c82730
+18558c831d0,table,0,package,value,(null),18558c82730
+18558c88040,string,31,<key>,key,string,18558c82730
+18558c85b50,table,1080,string,value,(null),18558c82730
+18558c88100,string,31,<key>,key,gmatch,18558c85b50
+18558c87c20,string,29,<key>,key,byte,18558c85b50
+18558c879e0,string,29,<key>,key,gsub,18558c85b50
+18558c87c80,string,33,<key>,key,packsize,18558c85b50
+18558c87bc0,string,30,<key>,key,upper,18558c85b50
+18558c87500,string,28,<key>,key,len,18558c85b50
+18558c84b20,string,0,<key>,key,(null),18558c85b50
+18558c87b00,string,32,<key>,key,reverse,18558c85b50
+18558c84400,string,0,<key>,key,(null),18558c85b50
+18558c87f20,string,31,<key>,key,format,18558c85b50
+18558c87800,string,29,<key>,key,char,18558c85b50
+18558c88160,string,29,<key>,key,dump,18558c85b50
+18558c87980,string,28,<key>,key,sub,18558c85b50
+18558c87260,string,28,<key>,key,rep,18558c85b50
+18558c87860,string,30,<key>,key,match,18558c85b50
+18558c87ec0,string,29,<key>,key,find,18558c85b50
+18558c87920,string,30,<key>,key,lower,18558c85b50
+18558c84760,string,27,<key>,key,os,18558c82730
+18558c85750,table,568,os,value,(null),18558c82730
+18558c84220,string,30,<key>,key,clock,18558c85750
+18558c87560,string,29,<key>,key,exit,18558c85750
+18558c847c0,string,0,<key>,key,(null),18558c85750
+18558c843a0,string,32,<key>,key,execute,18558c85750
+18558c84e80,string,29,<key>,key,date,18558c85750
+18558c87e60,string,31,<key>,key,getenv,18558c85750
+18558c878c0,string,29,<key>,key,time,18558c85750
+18558c874a0,string,32,<key>,key,tmpname,18558c85750
+18558c84340,string,33,<key>,key,difftime,18558c85750
+18558c87440,string,31,<key>,key,rename,18558c85750
+18558c880a0,string,34,<key>,key,setlocale,18558c85750
+18558c81b90,string,0,<key>,key,(null),18558c82730
+18558c83ef0,table,0,coroutine,value,(null),18558c82730
+18558c88c70,string,30,<key>,key,debug,18558c82730
+18558c86250,table,568,debug,value,(null),18558c82730
+18558c89810,string,34,<key>,key,traceback,18558c86250
+18558c89450,string,35,<key>,key,setupvalue,18558c86250
+18558c88f10,string,34,<key>,key,upvalueid,18558c86250
+18558c89390,string,33,<key>,key,setlocal,18558c86250
+18558c896f0,string,32,<key>,key,gethook,18558c86250
+18558c88eb0,string,32,<key>,key,sethook,18558c86250
+18558c88fd0,string,33,<key>,key,getlocal,18558c86250
+18558c88c70,string,0,<key>,key,(null),18558c86250
+18558c89090,string,32,<key>,key,getinfo,18558c86250
+18558c89570,string,36,<key>,key,upvaluejoin,18558c86250
+18558c82d60,string,37,<key>,key,getuservalue,18558c86250
+18558c82970,string,37,<key>,key,setmetatable,18558c86250
+18558c893f0,string,36,<key>,key,getregistry,18558c86250
+18558c89330,string,35,<key>,key,getupvalue,18558c86250
+18558c82b30,string,37,<key>,key,setuservalue,18558c86250
+18558c82c80,string,37,<key>,key,getmetatable,18558c86250
+18558c81fb0,string,27,<key>,key,_G,18558c82730
+18558c74c10,table,0,_G,value,(null),18558c82730
+18558c89870,string,29,<key>,key,utf8,18558c82730
+18558c861d0,table,312,utf8,value,(null),18558c82730
+18558c87500,string,0,<key>,key,(null),18558c861d0
+18558c87800,string,0,<key>,key,(null),18558c861d0
+18558c892d0,string,36,<key>,key,charpattern,18558c861d0
+18558c82a50,string,39,charpattern,value,[,18558c861d0
+18558c89930,string,30,<key>,key,codes,18558c861d0
+18558c897b0,string,31,<key>,key,offset,18558c861d0
+18558c898d0,string,34,<key>,key,codepoint,18558c861d0
+18558c875c0,string,29,<key>,key,math,18558c82730
+18558c855d0,table,1080,math,value,(null),18558c82730
+18558c87aa0,string,29,<key>,key,acos,18558c855d0
+18558c87e00,string,29,<key>,key,fmod,18558c855d0
+18558c87620,string,34,<key>,key,tointeger,18558c855d0
+18558c87da0,string,30,<key>,key,floor,18558c855d0
+18558c89750,string,28,<key>,key,tan,18558c855d0
+18558c818f0,string,35,<key>,key,randomseed,18558c855d0
+18558c87f80,string,28,<key>,key,abs,18558c855d0
+18558c82070,string,28,<key>,key,sin,18558c855d0
+18558c87fe0,string,28,<key>,key,log,18558c855d0
+18558c89270,string,35,<key>,key,maxinteger,18558c855d0
+18558c89210,string,29,<key>,key,huge,18558c855d0
+18558c89690,string,27,<key>,key,pi,18558c855d0
+18558c87740,string,28,<key>,key,min,18558c855d0
+18558c87320,string,29,<key>,key,atan,18558c855d0
+18558c87ce0,string,29,<key>,key,asin,18558c855d0
+18558c87380,string,28,<key>,key,cos,18558c855d0
+18558c87b60,string,29,<key>,key,ceil,18558c855d0
+18558c89510,string,29,<key>,key,sqrt,18558c855d0
+18558c876e0,string,28,<key>,key,max,18558c855d0
+18558c81f50,string,28,<key>,key,rad,18558c855d0
+18558c81cb0,string,29,<key>,key,type,18558c855d0
+18558c877a0,string,29,<key>,key,modf,18558c855d0
+18558c87d40,string,28,<key>,key,deg,18558c855d0
+18558c817d0,string,31,<key>,key,random,18558c855d0
+18558c873e0,string,28,<key>,key,exp,18558c855d0
+18558c88f70,string,35,<key>,key,mininteger,18558c855d0
+18558c87680,string,28,<key>,key,ult,18558c855d0
+18558c84700,string,27,<key>,key,io,18558c82730
+18558c852c0,table,568,io,value,(null),18558c82730
+18558c842e0,string,30,<key>,key,flush,18558c852c0
+18558c84580,string,30,<key>,key,close,18558c852c0
+18558c84a60,string,29,<key>,key,open,18558c852c0
+18558c844c0,string,31,<key>,key,output,18558c852c0
+18558c84c40,string,30,<key>,key,write,18558c852c0
+18558c84e20,string,31,<key>,key,stderr,18558c852c0
+18558c85cd0,userdata,56,stderr,value,(null),18558c852c0
+18558c864d0,table,568,__metatable,metatable,(null),18558c85cd0
+18558c84ac0,string,29,<key>,key,seek,18558c864d0
+18558c84580,string,0,<key>,key,(null),18558c864d0
+18558c845e0,string,35,<key>,key,__tostring,18558c864d0
+18558c84c40,string,0,<key>,key,(null),18558c864d0
+18558c79780,string,29,<key>,key,__gc,18558c864d0
+18558c842e0,string,0,<key>,key,(null),18558c864d0
+18558c84b80,string,32,<key>,key,setvbuf,18558c864d0
+18558c848e0,string,30,<key>,key,lines,18558c864d0
+18558c849a0,string,29,<key>,key,read,18558c864d0
+18558c79720,string,32,<key>,key,__index,18558c864d0
+18558c864d0,table,0,__index,value,(null),18558c864d0
+18558c841c0,string,31,<key>,key,__name,18558c864d0
+18558c84ca0,string,30,__name,value,FILE*,18558c864d0
+18558c84d00,string,31,<key>,key,stdout,18558c852c0
+18558c857d0,userdata,56,stdout,value,(null),18558c852c0
+18558c864d0,table,0,__metatable,metatable,(null),18558c857d0
+18558c81cb0,string,0,<key>,key,(null),18558c852c0
+18558c84be0,string,30,<key>,key,stdin,18558c852c0
+18558c856d0,userdata,56,stdin,value,(null),18558c852c0
+18558c864d0,table,0,__metatable,metatable,(null),18558c856d0
+18558c84fa0,string,30,<key>,key,input,18558c852c0
+18558c84160,string,30,<key>,key,popen,18558c852c0
+18558c849a0,string,0,<key>,key,(null),18558c852c0
+18558c848e0,string,0,<key>,key,(null),18558c852c0
+18558c84880,string,32,<key>,key,tmpfile,18558c852c0
+18558c81a10,string,32,<key>,key,preload,18558c831d0
+18558c83490,table,56,preload,value,(null),18558c831d0
+18558c81ad0,string,34,<key>,key,searchers,18558c831d0
+18558c83390,table,120,searchers,value,(null),18558c831d0
+18558c82eb0,function,48,[1],array item,C function,18558c83390
+18558c831d0,table,0,<upvalue 1>,upvalue 1: ,(null),18558c82eb0
+18558c82890,function,48,[2],array item,C function,18558c83390
+18558c831d0,table,0,<upvalue 1>,upvalue 1: ,(null),18558c82890
+18558c829e0,function,48,[3],array item,C function,18558c83390
+18558c831d0,table,0,<upvalue 1>,upvalue 1: ,(null),18558c829e0
+18558c82cf0,function,48,[4],array item,C function,18558c83390
+18558c831d0,table,0,<upvalue 1>,upvalue 1: ,(null),18558c82cf0
+18558c823d0,string,32,<key>,key,loadlib,18558c831d0
+18558c81ef0,string,35,<key>,key,searchpath,18558c831d0
+18558c820d0,string,31,<key>,key,config,18558c831d0
+18558c81830,string,35,config,value,\;?!-,18558c831d0
+18558c82430,string,30,<key>,key,error,18558c74c10
+18558c81d70,string,33,<key>,key,rawequal,18558c74c10
+18558c825b0,string,33,<key>,key,_VERSION,18558c74c10
+18558c822b0,string,32,_VERSION,value,Lua 5.3,18558c74c10
+18558c81e90,string,30,<key>,key,print,18558c74c10
+18558c82550,string,33,<key>,key,tonumber,18558c74c10
+18558c875c0,string,0,<key>,key,(null),18558c74c10
+18558c855d0,table,0,math,value,(null),18558c74c10
+18558c82900,string,39,<key>,key,collectgarbage,18558c74c10
+18558c84100,string,0,<key>,key,(null),18558c74c10
+18558c83150,table,0,table,value,(null),18558c74c10
+18558c82310,string,31,<key>,key,dofile,18558c74c10
+18558c82970,string,0,<key>,key,(null),18558c74c10
+18558c894b0,string,28,<key>,key,arg,18558c74c10
+18558c859d0,table,120,arg,value,(null),18558c74c10
+18558c83c60,string,80,[0],value,test.lua,18558c859d0
+18558c80650,string,91,[-1],value,lua.exe,18558c859d0
+18558c8ca70,string,27,<key>,key,co,18558c74c10
+18558c8c4c8,thread,1104,co,value,(null),18558c74c10
+18558c85950,table,120,l1,local variable 1: l1 @ test.lua:44,(null),18558c8c4c8
+18558c8cfb0,string,26,<key>,key,a,18558c85950
+18558c8ce90,string,28,a,value,aaa,18558c85950
+18558c8d0d0,string,26,<key>,key,b,18558c85950
+18558c85a50,table,120,b,value,(null),18558c85950
+18558c8d310,string,27,<key>,key,g2,18558c85a50
+18558c86350,table,120,g2,value,(null),18558c85a50
+18558c88d30,string,26,<key>,key,g,18558c86350
+18558c85c50,table,0,g,value,(null),18558c86350
+18558c88d90,string,26,<key>,key,f,18558c86350
+18558c8d250,function,32,f,value,lua function @ test.lua:12,18558c86350
+18558c8cad0,string,27,<key>,key,g1,18558c85a50
+18558c85c50,table,0,g1,value,(null),18558c85a50
+18558c85a50,table,0,l2,local variable 2: l2 @ test.lua:44,(null),18558c8c4c8
+18558c82f90,function,48,l3,local variable 3: l3 @ test.lua:44,lua function @ test.lua:25,18558c8c4c8
+18558c74c10,table,0,_ENV,upvalue 1: _ENV,(null),18558c82f90
+18558c8ce90,string,0,t,upvalue 2: t,(null),18558c82f90
+18558c88c10,string,32,<key>,key,global2,18558c74c10
+18558c86350,table,0,global2,value,(null),18558c74c10
+18558c88c70,string,0,<key>,key,(null),18558c74c10
+18558c86250,table,0,debug,value,(null),18558c74c10
+18558c81890,string,33,<key>,key,loadfile,18558c74c10
+18558c81c50,string,30,<key>,key,pairs,18558c74c10
+18558c84700,string,0,<key>,key,(null),18558c74c10
+18558c852c0,table,0,io,value,(null),18558c74c10
+18558c821f0,string,31,<key>,key,rawget,18558c74c10
+18558c84760,string,0,<key>,key,(null),18558c74c10
+18558c85750,table,0,os,value,(null),18558c74c10
+18558c88040,string,0,<key>,key,(null),18558c74c10
+18558c85b50,table,0,string,value,(null),18558c74c10
+18558c81b30,string,33,<key>,key,tostring,18558c74c10
+18558c82610,string,30,<key>,key,pcall,18558c74c10
+18558c81cb0,string,0,<key>,key,(null),18558c74c10
+18558c81d10,string,31,<key>,key,xpcall,18558c74c10
+18558c819b0,string,32,<key>,key,require,18558c74c10
+18558c82ac0,function,48,require,value,C function,18558c74c10
+18558c831d0,table,0,<upvalue 1>,upvalue 1: ,(null),18558c82ac0
+18558c81fb0,string,0,<key>,key,(null),18558c74c10
+18558c74c10,table,0,_G,value,(null),18558c74c10
+18558c82010,string,31,<key>,key,rawlen,18558c74c10
+18558c89870,string,0,<key>,key,(null),18558c74c10
+18558c861d0,table,0,utf8,value,(null),18558c74c10
+18558c82c80,string,0,<key>,key,(null),18558c74c10
+18558c84ca0,string,0,<key>,key,(null),18558c7aef0
+18558c864d0,table,0,FILE*,value,(null),18558c7aef0
+18558c84f40,string,35,<key>,key,_IO_output,18558c7aef0
+18558c857d0,userdata,0,_IO_output,value,(null),18558c7aef0
+18558c81950,string,33,<key>,key,_PRELOAD,18558c7aef0
+18558c83490,table,0,_PRELOAD,value,(null),18558c7aef0
+18558c84640,string,34,<key>,key,_IO_input,18558c7aef0
+18558c856d0,userdata,0,_IO_input,value,(null),18558c7aef0
+18558c83050,table,56,[userdata:00007FF6F3D95520],value,(null),18558c7aef0
+18558c830d0,table,88,__metatable,metatable,(null),18558c83050
+18558c79780,string,0,<key>,key,(null),18558c830d0
+18558c81a70,string,32,<key>,key,_LOADED,18558c7aef0
+18558c82730,table,0,_LOADED,value,(null),18558c7aef0
+18558c85dd0,function,64,(null),(null),lua function @ test.lua:37,0
+18558c85950,table,0,t1,upvalue 1: t1,(null),18558c85dd0
+18558c85a50,table,0,t2,upvalue 2: t2,(null),18558c85dd0
+18558c82f20,function,40,f2,upvalue 3: f2,lua function @ test.lua:23,18558c85dd0
+18558c74c10,table,0,_ENV,upvalue 1: _ENV,(null),18558c82f20
+18558c74c10,table,0,_ENV,upvalue 4: _ENV,(null),18558c85dd0
+18558c8c9b0,string,26,(null),(null),3,0
+18558c8cef0,string,26,(null),(null),2,0
+18558c8d490,string,26,(null),(null),1,0
+18558c8ce30,string,27,(null),(null),l3,0
+18558c8d4f0,string,27,(null),(null),l2,0
+18558c8d2b0,string,27,(null),(null),l1,0
+18558c837e0,proto,512,(null),(null),proto @ @test.lua:37,0
+18558c8cb90,string,27,(null),(null),t2,0
+18558c8cc50,string,27,(null),(null),t1,0
+18558c8c040,proto,200,(null),(null),proto @ @test.lua:25,0
+18558c8c950,string,26,(null),(null),t,0
+18558c8d430,string,26,(null),(null),v,0
+18558c8bf80,proto,208,(null),(null),proto @ @test.lua:23,0
+18558c8c650,string,27,(null),(null),f2,0
+18558c890f0,string,36,(null),(null),local value,0
+18558c89030,string,26,(null),(null),s,0
+18558c8c100,proto,176,(null),(null),proto @ @test.lua:12,0
+18558c83750,string,81,(null),(null),@test.lua,0
+18558c86050,table,88,(null),(null),(null),0
+18558c79720,string,0,<key>,key,(null),18558c86050
+18558c85b50,table,0,__index,value,(null),18558c86050
+18558c80a00,string,30,(null),(null),while,0
+18558c80820,string,30,(null),(null),until,0
+18558c814e0,string,29,(null),(null),true,0
+18558c81480,string,29,(null),(null),then,0
+18558c80e80,string,31,(null),(null),return,0
+18558c812a0,string,31,(null),(null),repeat,0
+18558c80f40,string,27,(null),(null),or,0
+18558c810c0,string,28,(null),(null),not,0
+18558c80d60,string,28,(null),(null),nil,0
+18558c80ca0,string,30,(null),(null),local,0
+18558c81060,string,27,(null),(null),in,0
+18558c811e0,string,27,(null),(null),if,0
+18558c81660,string,29,(null),(null),goto,0
+18558c80c40,string,33,(null),(null),function,0
+18558c809a0,string,28,(null),(null),for,0
+18558c80fa0,string,30,(null),(null),false,0
+18558c80940,string,28,(null),(null),end,0
+18558c80be0,string,31,(null),(null),elseif,0
+18558c80b80,string,29,(null),(null),else,0
+18558c81600,string,27,(null),(null),do,0
+18558c808e0,string,30,(null),(null),break,0
+18558c80dc0,string,28,(null),(null),and,0
+18558c80ee0,string,29,(null),(null),_ENV,0
+18558c813c0,string,31,(null),(null),__call,0
+18558c80e20,string,33,(null),(null),__concat,0
+18558c80b20,string,29,(null),(null),__le,0
+18558c80760,string,29,(null),(null),__lt,0
+18558c81300,string,31,(null),(null),__bnot,0
+18558c80ac0,string,30,(null),(null),__unm,0
+18558c81420,string,30,(null),(null),__shr,0
+18558c815a0,string,30,(null),(null),__shl,0
+18558c81360,string,31,(null),(null),__bxor,0
+18558c80d00,string,30,(null),(null),__bor,0
+18558c81180,string,31,(null),(null),__band,0
+18558c81240,string,31,(null),(null),__idiv,0
+18558c80880,string,30,(null),(null),__div,0
+18558c81540,string,30,(null),(null),__pow,0
+18558c81000,string,30,(null),(null),__mod,0
+18558c81120,string,30,(null),(null),__mul,0
+18558c80a60,string,30,(null),(null),__sub,0
+18558c807c0,string,30,(null),(null),__add,0
+18558c799c0,string,29,(null),(null),__eq,0
+18558c79960,string,30,(null),(null),__len,0
+18558c79900,string,31,(null),(null),__mode,0
+18558c79a80,string,35,(null),(null),__newindex,0
+18558c74c90,string,42,(null),(null),not enough memory,0
