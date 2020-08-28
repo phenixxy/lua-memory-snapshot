@@ -50,6 +50,7 @@ void luaF_initupvals (lua_State *L, LClosure *cl) {
     uv->v = &uv->u.value;  /* make it closed */
     setnilvalue(uv->v);
     cl->upvals[i] = uv;
+    L->nliveupval++;
   }
 }
 
@@ -76,6 +77,7 @@ UpVal *luaF_findupval (lua_State *L, StkId level) {
     L->twups = G(L)->twups;  /* link it to the list */
     G(L)->twups = L;
   }
+  L->nliveupval++;
   return uv;
 }
 
@@ -85,8 +87,10 @@ void luaF_close (lua_State *L, StkId level) {
   while (L->openupval != NULL && (uv = L->openupval)->v >= level) {
     lua_assert(upisopen(uv));
     L->openupval = uv->u.open.next;  /* remove from 'open' list */
-    if (uv->refcount == 0)  /* no references? */
+    if (uv->refcount == 0) {  /* no references? */
       luaM_free(L, uv);  /* free upvalue */
+      L->nliveupval--;
+    }
     else {
       setobj(L, &uv->u.value, uv->v);  /* move value to upvalue slot */
       uv->v = &uv->u.value;  /* now current value lives here */
